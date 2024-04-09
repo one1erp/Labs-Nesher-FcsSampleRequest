@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fcs="http://www.moh.gov.co.il/FoodApp/FCS_Labs" xmlns:fcs1="http://schemas.datacontract.org/2004/07/FCS_LabsLib">
+  <soapenv:Header />
+  <soapenv:Body>
+    <fcs:Lab_Sample_Form>
+      <fcs:Request>
+        <fcs1:Barcode>476784</fcs1:Barcode>
+        <fcs1:Lab_Code>13</fcs1:Lab_Code>
+      </fcs:Request>
+    </fcs:Lab_Sample_Form>
+  </soapenv:Body>
+</soapenv:Envelope>

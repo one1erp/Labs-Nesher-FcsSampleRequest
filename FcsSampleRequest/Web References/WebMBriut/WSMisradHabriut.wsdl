@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FcsSampleRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="barcode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FcsSampleRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FcsSampleRequestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FcsSampleRequestRes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="barcode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FcsSampleRequestResResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FcsSampleRequestResResult" type="tns:ResponseServise" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResponseServise">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="str" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Error" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FCS_MSG_ID" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Success" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="FcsSampleRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:FcsSampleRequest" />
+  </wsdl:message>
+  <wsdl:message name="FcsSampleRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:FcsSampleRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="FcsSampleRequestResSoapIn">
+    <wsdl:part name="parameters" element="tns:FcsSampleRequestRes" />
+  </wsdl:message>
+  <wsdl:message name="FcsSampleRequestResSoapOut">
+    <wsdl:part name="parameters" element="tns:FcsSampleRequestResResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WSMisradHabriutSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FcsSampleRequest">
+      <wsdl:input message="tns:FcsSampleRequestSoapIn" />
+      <wsdl:output message="tns:FcsSampleRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FcsSampleRequestRes">
+      <wsdl:input message="tns:FcsSampleRequestResSoapIn" />
+      <wsdl:output message="tns:FcsSampleRequestResSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSMisradHabriutSoap" type="tns:WSMisradHabriutSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FcsSampleRequest">
+      <soap:operation soapAction="http://tempuri.org/FcsSampleRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FcsSampleRequestRes">
+      <soap:operation soapAction="http://tempuri.org/FcsSampleRequestRes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSMisradHabriutSoap12" type="tns:WSMisradHabriutSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FcsSampleRequest">
+      <soap12:operation soapAction="http://tempuri.org/FcsSampleRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FcsSampleRequestRes">
+      <soap12:operation soapAction="http://tempuri.org/FcsSampleRequestRes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSMisradHabriut">
+    <wsdl:port name="WSMisradHabriutSoap" binding="tns:WSMisradHabriutSoap">
+      <soap:address location="https://localhost:44343/WSMisradHabriut.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSMisradHabriutSoap12" binding="tns:WSMisradHabriutSoap12">
+      <soap12:address location="https://localhost:44343/WSMisradHabriut.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <wsse:Security s:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp wsu:Id="Timestamp-34e79408-6612-4c12-a99c-294fedc8bbb8" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsu:Created>2023-05-17T12:18:55Z</wsu:Created>
+        <wsu:Expires>2023-05-17T12:23:55Z</wsu:Expires>
+      </wsu:Timestamp>
+      <wsse:BinarySecurityToken wsu:Id="SecurityToken-b2b422b8-268f-4cdf-bbb6-294fedc8082f" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">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</wsse:BinarySecurityToken>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+          <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+          <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+          <Reference URI="#Timestamp-34e79408-6612-4c12-a99c-294fedc8bbb8">
+            <Transforms>
+              <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+            <DigestValue>fbPXDndU/iDdT2tcsPkrGwH6QUQ=</DigestValue>
+          </Reference>
+          <Reference URI="#Body-6fd2b7db-1387-4747-b416-294fedc8dfb9">
+            <Transforms>
+              <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+            <DigestValue>V7F3LHDk/Nb4cKJheXRMfiTHw6o=</DigestValue>
+          </Reference>
+        </SignedInfo>
+        <SignatureValue>LTBft5NcumucvWEtLTWAtsU5UH7jcqXBi8S3tiZ1DSZVPH+i9OB67s+Z71D5SKhvK7y68T+tV7GAMgfNCFAZ5Y1+vGXmy3TLHYmVIUZLQAI+K2oM2ztkzeS+fjPcDFkdvnGhJXDtKC4DXkDElJsbzysupKnWP8gOieSTL3oWpHWyKGXO3DUU/Cmy67Hc5EV6iZfBmns9oyfpcogMzCRnMZ7fwQYIv8yTGZrJwuieTDuxRN/QcJtqtMljSxuTdBOPxTKniQIGv1ijjpL6y7TxCJ0punC0YvsxkxE7nl0gUd6j08LUICxLKFe0+2GUSUQaClTDdMqcYsb4FcXKiYEr3g==</SignatureValue>
+        <KeyInfo>
+          <wsse:SecurityTokenReference xmlns="">
+            <wsse:Reference URI="#SecurityToken-b2b422b8-268f-4cdf-bbb6-294fedc8082f" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+          </wsse:SecurityTokenReference>
+        </KeyInfo>
+      </Signature>
+    </wsse:Security>
+  </s:Header>
+  <s:Body wsu:Id="Body-6fd2b7db-1387-4747-b416-294fedc8dfb9" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <Lab_Sample_FormResponse xmlns="http://www.moh.gov.co.il/FoodApp/FCS_Labs">
+      <Lab_Sample_FormResult xmlns:a="http://schemas.datacontract.org/2004/07/FCS_LabsLib" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:Amil_Details>
+          <a:Address />
+          <a:City>
+          </a:City>
+          <a:Company_ID>510694920</a:Company_ID>
+          <a:Company_Name>אייביטרנס לוגיסטיקה</a:Company_Name>
+          <a:Email>ash2@abetrans.net</a:Email>
+          <a:Fax>88568610</a:Fax>
+          <a:Phone1>88563154</a:Phone1>
+          <a:Phone2 />
+          <a:ZIP_Code />
+        </a:Amil_Details>
+        <a:Barcode>476816</a:Barcode>
+        <a:Batch_Num />
+        <a:Container_Num>9934190</a:Container_Num>
+        <a:Country_Name>סין</a:Country_Name>
+        <a:Del_File_Num>2022049449</a:Del_File_Num>
+        <a:Delivery_To_Lab />
+        <a:Expiry_Date>
+          <a:Day>0</a:Day>
+          <a:Month>0</a:Month>
+          <a:Year>0</a:Year>
+        </a:Expiry_Date>
+        <a:Importer_Details>
+          <a:Address>רח' שד המקצועות 18, מודיעין 7177700</a:Address>
+          <a:City>מודיעין</a:City>
+          <a:Company_ID>511573354</a:Company_ID>
+          <a:Company_Name>קנקון מוצרים בע"מ</a:Company_Name>
+          <a:Email>cancun@bezeqint.net</a:Email>
+          <a:Fax>089-5180973</a:Fax>
+          <a:Phone1>03-9518074</a:Phone1>
+          <a:Phone2 />
+          <a:ZIP_Code>7177700</a:ZIP_Code>
+        </a:Importer_Details>
+        <a:Importer_Store>קירור לי בע"מ</a:Importer_Store>
+        <a:Inspector_Title>רופא וטרינר/ית</a:Inspector_Title>
+        <a:Is_Vet>true</a:Is_Vet>
+        <a:Manufacture_Date>
+          <a:Day>0</a:Day>
+          <a:Month>0</a:Month>
+          <a:Year>0</a:Year>
+        </a:Manufacture_Date>
+        <a:Num_Of_Samples />
+        <a:Num_Of_Samples_Vet>5</a:Num_Of_Samples_Vet>
+        <a:Organization>TH06</a:Organization>
+        <a:Packing_Type />
+        <a:Payer_ID>1</a:Payer_ID>
+        <a:Producer_Country>120</a:Producer_Country>
+        <a:Producer_Name>3300/02112 Taizhou Tianhe</a:Producer_Name>
+        <a:Product_Brand_Name />
+        <a:Product_Group_Code>152</a:Product_Group_Code>
+        <a:Product_Group_Description>רכיכות, סרטנים ואכינודרמים מבושלים</a:Product_Group_Description>
+        <a:Product_name_eng>Astacus leptodactylus, Procambarus clarki, Astacus astacus</a:Product_name_eng>
+        <a:Product_name_heb>סרטן נהרות מבושל קפוא</a:Product_name_heb>
+        <a:Property_Plus />
+        <a:Remark i:nil="true" />
+        <a:Return_Code>0</a:Return_Code>
+        <a:Return_Code_Desc i:nil="true" />
+        <a:Sample_Form_Num>9057</a:Sample_Form_Num>
+        <a:Sampling_Date>
+          <a:Day>14</a:Day>
+          <a:Month>7</a:Month>
+          <a:Year>2022</a:Year>
+        </a:Sampling_Date>
+        <a:Sampling_Inspector>רחל אגם-אסנת</a:Sampling_Inspector>
+        <a:Sampling_Place />
+        <a:Sampling_Reason />
+        <a:Sampling_Temp>999</a:Sampling_Temp>
+        <a:Sampling_Time />
+        <a:Test_Description>מיקרו מלא, ליסטריה בודדת</a:Test_Description>
+        <a:Test_Sub_Code>90</a:Test_Sub_Code>
+      </Lab_Sample_FormResult>
+    </Lab_Sample_FormResponse>
+  </s:Body>
+</s:Envelope>

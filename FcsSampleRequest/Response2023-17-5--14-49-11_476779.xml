@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <wsse:Security s:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp wsu:Id="Timestamp-48888d6e-7c3c-43cc-864e-294fedc80cff" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsu:Created>2023-05-17T11:49:05Z</wsu:Created>
+        <wsu:Expires>2023-05-17T11:54:05Z</wsu:Expires>
+      </wsu:Timestamp>
+      <wsse:BinarySecurityToken wsu:Id="SecurityToken-630ed8f7-086f-460e-8d87-294fedc8f04c" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">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</wsse:BinarySecurityToken>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+          <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+          <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+          <Reference URI="#Timestamp-48888d6e-7c3c-43cc-864e-294fedc80cff">
+            <Transforms>
+              <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+            <DigestValue>E8AA49v8RdE34GhWL97TkUsPxOY=</DigestValue>
+          </Reference>
+          <Reference URI="#Body-fd89ea86-30d4-46c4-9f0e-294fedc89f53">
+            <Transforms>
+              <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+            <DigestValue>5S0EtTBstZOeiphcGegqd9njXRY=</DigestValue>
+          </Reference>
+        </SignedInfo>
+        <SignatureValue>Do4rIOOqpQRFQyvB+R10qgOncDPkC4edKVNgQB3GPBXUN+ZHHRyjLcOGJsjM1ONEEObrS4wibIDg/iNYCXN18OICU7zk9rDiqCsaQs4oPB312SNm5hw4cvThVIG9+NbsvhaY7Nl7mo/nTNAIgTtHMz/6WUWNbdfKudgJporoph5BJQwBdTdmiKPmiXOMy//KsHvCdnXN7OQg9WvVnTshln+sJGDNXzJx5ISoPdeQ/cJNl12j2qn01j3ome23CQ5xV++CNeF0P5JEbV5XkS7xHzOpJZvLNjb2mfsef7QFUY1IqCmBWqJYHMEumUyFLhO/CGDv/xdB9r6d0jHxSvTIrg==</SignatureValue>
+        <KeyInfo>
+          <wsse:SecurityTokenReference xmlns="">
+            <wsse:Reference URI="#SecurityToken-630ed8f7-086f-460e-8d87-294fedc8f04c" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+          </wsse:SecurityTokenReference>
+        </KeyInfo>
+      </Signature>
+    </wsse:Security>
+  </s:Header>
+  <s:Body wsu:Id="Body-fd89ea86-30d4-46c4-9f0e-294fedc89f53" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <Lab_Sample_FormResponse xmlns="http://www.moh.gov.co.il/FoodApp/FCS_Labs">
+      <Lab_Sample_FormResult xmlns:a="http://schemas.datacontract.org/2004/07/FCS_LabsLib" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:Amil_Details>
+          <a:Address />
+          <a:City>
+          </a:City>
+          <a:Company_ID>513079731</a:Company_ID>
+          <a:Company_Name>רויאל קרגו עמילות מכס (2001) בע"מ</a:Company_Name>
+          <a:Email>or@wlog-group.com</a:Email>
+          <a:Fax>48650382</a:Fax>
+          <a:Phone1>03-5162388</a:Phone1>
+          <a:Phone2 />
+          <a:ZIP_Code />
+        </a:Amil_Details>
+        <a:Barcode>476779</a:Barcode>
+        <a:Batch_Num />
+        <a:Container_Num>9087067</a:Container_Num>
+        <a:Country_Name>איטליה</a:Country_Name>
+        <a:Del_File_Num>2022044733</a:Del_File_Num>
+        <a:Delivery_To_Lab>מסירה ישירה</a:Delivery_To_Lab>
+        <a:Expiry_Date>
+          <a:Day>11</a:Day>
+          <a:Month>10</a:Month>
+          <a:Year>2023</a:Year>
+        </a:Expiry_Date>
+        <a:Importer_Details>
+          <a:Address>רח' מאיר עזרא 5, קרית מלאכי 8310601</a:Address>
+          <a:City>קרית מלאכי</a:City>
+          <a:Company_ID>511725459</a:Company_ID>
+          <a:Company_Name>נטו מלינדה סחר בע"מ.</a:Company_Name>
+          <a:Email>moh-import@em-neto.co.il</a:Email>
+          <a:Fax>08-8504548</a:Fax>
+          <a:Phone1>08-8608585</a:Phone1>
+          <a:Phone2 />
+          <a:ZIP_Code>8310601</a:ZIP_Code>
+        </a:Importer_Details>
+        <a:Importer_Store>נטו מלינדה סחר בע"מ- החרושת ק. מלאכי</a:Importer_Store>
+        <a:Inspector_Title>מפקח/ת מזון ויצור מקומי-רמת משתמש</a:Inspector_Title>
+        <a:Is_Vet>false</a:Is_Vet>
+        <a:Manufacture_Date>
+          <a:Day>0</a:Day>
+          <a:Month>0</a:Month>
+          <a:Year>0</a:Year>
+        </a:Manufacture_Date>
+        <a:Num_Of_Samples>1</a:Num_Of_Samples>
+        <a:Num_Of_Samples_Vet>0</a:Num_Of_Samples_Vet>
+        <a:Organization>TH06</a:Organization>
+        <a:Packing_Type>אחרת</a:Packing_Type>
+        <a:Payer_ID>1</a:Payer_ID>
+        <a:Producer_Country>11</a:Producer_Country>
+        <a:Producer_Name>SVILA</a:Producer_Name>
+        <a:Product_Brand_Name>PIZZA MARGHERITA THICK DEEP FROZEN</a:Product_Brand_Name>
+        <a:Product_Group_Code>121</a:Product_Group_Code>
+        <a:Product_Group_Description>מוצרי מאפה מיוחדים אחרים כגון עוגות, פאי, סופגניות, פנקייק, </a:Product_Group_Description>
+        <a:Product_name_eng />
+        <a:Product_name_heb>פיצה קפואה</a:Product_name_heb>
+        <a:Property_Plus />
+        <a:Remark i:nil="true" />
+        <a:Return_Code>0</a:Return_Code>
+        <a:Return_Code_Desc i:nil="true" />
+        <a:Sample_Form_Num>9038</a:Sample_Form_Num>
+        <a:Sampling_Date>
+          <a:Day>0</a:Day>
+          <a:Month>0</a:Month>
+          <a:Year>0</a:Year>
+        </a:Sampling_Date>
+        <a:Sampling_Inspector />
+        <a:Sampling_Place>בנמל - במחסן ערובה</a:Sampling_Place>
+        <a:Sampling_Reason>פיקוח שגרתי</a:Sampling_Reason>
+        <a:Sampling_Temp>999</a:Sampling_Temp>
+        <a:Sampling_Time />
+        <a:Test_Description>מיקרו' כולל ח. פתוגנים</a:Test_Description>
+        <a:Test_Sub_Code>52</a:Test_Sub_Code>
+      </Lab_Sample_FormResult>
+    </Lab_Sample_FormResponse>
+  </s:Body>
+</s:Envelope>

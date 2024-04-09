@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <wsse:Security s:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsu:Timestamp wsu:Id="Timestamp-c2122829-6e88-4944-a05d-294fedc843d1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsu:Created>2023-05-16T07:57:59Z</wsu:Created>
+        <wsu:Expires>2023-05-16T08:02:59Z</wsu:Expires>
+      </wsu:Timestamp>
+      <wsse:BinarySecurityToken wsu:Id="SecurityToken-1addcaf5-6959-449c-936b-294fedc852d0" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">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</wsse:BinarySecurityToken>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+          <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+          <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+          <Reference URI="#Timestamp-c2122829-6e88-4944-a05d-294fedc843d1">
+            <Transforms>
+              <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+            <DigestValue>aKulPWkkGrgZlzVSIdL8RHWowWs=</DigestValue>
+          </Reference>
+          <Reference URI="#Body-07a23fb7-ffd2-48f8-966e-294fedc8aca4">
+            <Transforms>
+              <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+            <DigestValue>d20OcnkHp3V9p0e2fxXtP0TUmx4=</DigestValue>
+          </Reference>
+        </SignedInfo>
+        <SignatureValue>BFchzBVkRGUcr4gtuQCdOiyaL2c6HmIJ91UfJOWduRW+9+OrrXni+Porpt2QfIROQ3QAK7iIU/LcB2Tgh1hwLEV+vN3+968LyvWgGWQU0rp+4uUlCXmwPPl6Hy1hH5pV6Ccvb2lEOTh3aa6CBbOU2SIIB2yVma9RAgsq9lUyIb8QgBnnWXu0vxBT/+TtI1AvDbZDza6otT25K6C6MnfTqsAI+NQP4BmAi4QrQztLGGo5V7bLrv+2+W9M+Qg6zfMzxA/KWCLExeZfgacsUVTd10r6SJZrmnKAxsMla07HtPM8Wn2ygZpQmkqssHSAPvJmXqrX8BuK0QjwEFBzjiAwFw==</SignatureValue>
+        <KeyInfo>
+          <wsse:SecurityTokenReference xmlns="">
+            <wsse:Reference URI="#SecurityToken-1addcaf5-6959-449c-936b-294fedc852d0" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+          </wsse:SecurityTokenReference>
+        </KeyInfo>
+      </Signature>
+    </wsse:Security>
+  </s:Header>
+  <s:Body wsu:Id="Body-07a23fb7-ffd2-48f8-966e-294fedc8aca4" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <Lab_Sample_FormResponse xmlns="http://www.moh.gov.co.il/FoodApp/FCS_Labs">
+      <Lab_Sample_FormResult xmlns:a="http://schemas.datacontract.org/2004/07/FCS_LabsLib" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <a:Amil_Details>
+          <a:Address />
+          <a:City>
+          </a:City>
+          <a:Company_ID>513046615</a:Company_ID>
+          <a:Company_Name>פליינג קרגו תובלה בינלאומית בע"מ</a:Company_Name>
+          <a:Email>Mazal.Michaeli@dhl.com</a:Email>
+          <a:Fax>0545555555</a:Fax>
+          <a:Phone1>03-9719000</a:Phone1>
+          <a:Phone2 />
+          <a:ZIP_Code />
+        </a:Amil_Details>
+        <a:Barcode>478760</a:Barcode>
+        <a:Batch_Num />
+        <a:Container_Num>5555555</a:Container_Num>
+        <a:Country_Name>ירדן</a:Country_Name>
+        <a:Del_File_Num>2022041035</a:Del_File_Num>
+        <a:Delivery_To_Lab>ע"י יבואן</a:Delivery_To_Lab>
+        <a:Expiry_Date>
+          <a:Day>4</a:Day>
+          <a:Month>6</a:Month>
+          <a:Year>2023</a:Year>
+        </a:Expiry_Date>
+        <a:Importer_Details>
+          <a:Address>רח' העבודה 9, נצרת עילית 12345</a:Address>
+          <a:City>נצרת עילית</a:City>
+          <a:Company_ID>516255171</a:Company_ID>
+          <a:Company_Name>ח.ח שיווק גלידות וממתקים בע"מ</a:Company_Name>
+          <a:Email>mtanesk@gmail.com</a:Email>
+          <a:Fax />
+          <a:Phone1>050-6664686</a:Phone1>
+          <a:Phone2 />
+          <a:ZIP_Code>12345</a:ZIP_Code>
+        </a:Importer_Details>
+        <a:Importer_Store>טופ קור לוגיסטיקה בע"מ</a:Importer_Store>
+        <a:Inspector_Title>מפקח/ת מזון ויצור מקומי-רמת משתמש</a:Inspector_Title>
+        <a:Is_Vet>false</a:Is_Vet>
+        <a:Manufacture_Date>
+          <a:Day>5</a:Day>
+          <a:Month>6</a:Month>
+          <a:Year>2022</a:Year>
+        </a:Manufacture_Date>
+        <a:Num_Of_Samples>6</a:Num_Of_Samples>
+        <a:Num_Of_Samples_Vet>0</a:Num_Of_Samples_Vet>
+        <a:Organization>TH08</a:Organization>
+        <a:Packing_Type>פלסטיק</a:Packing_Type>
+        <a:Payer_ID>1</a:Payer_ID>
+        <a:Producer_Country>4</a:Producer_Country>
+        <a:Producer_Name>THE SAUDI JORDANIAN INDUSTRIAL DEVELOPMENT CO "JORDINA"</a:Producer_Name>
+        <a:Product_Brand_Name>ICE TOP STRAWBERRY</a:Product_Brand_Name>
+        <a:Product_Group_Code>400</a:Product_Group_Code>
+        <a:Product_Group_Description>קרחונים בטעמים</a:Product_Group_Description>
+        <a:Product_name_eng />
+        <a:Product_name_heb>קרחון בטעם תות שדה</a:Product_name_heb>
+        <a:Property_Plus />
+        <a:Remark i:nil="true" />
+        <a:Return_Code>0</a:Return_Code>
+        <a:Return_Code_Desc i:nil="true" />
+        <a:Sample_Form_Num>647</a:Sample_Form_Num>
+        <a:Sampling_Date>
+          <a:Day>26</a:Day>
+          <a:Month>7</a:Month>
+          <a:Year>2022</a:Year>
+        </a:Sampling_Date>
+        <a:Sampling_Inspector>אלינה כהן</a:Sampling_Inspector>
+        <a:Sampling_Place>בנמל</a:Sampling_Place>
+        <a:Sampling_Reason>פיקוח שגרתי</a:Sampling_Reason>
+        <a:Sampling_Temp>999</a:Sampling_Temp>
+        <a:Sampling_Time />
+        <a:Test_Description>קוליפורמים</a:Test_Description>
+        <a:Test_Sub_Code>71</a:Test_Sub_Code>
+      </Lab_Sample_FormResult>
+    </Lab_Sample_FormResponse>
+  </s:Body>
+</s:Envelope>

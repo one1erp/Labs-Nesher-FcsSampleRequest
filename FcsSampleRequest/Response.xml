@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fcs="http://www.moh.gov.co.il/FoodApp/FCS_Labs" xmlns:fcs1="http://schemas.datacontract.org/2004/07/FCS_LabsLib">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <fcs:Lab_Sample_FormResponse>
+
+         <fcs:Lab_Sample_FormResult>
+
+            <fcs1:Amil_Details>
+
+               <fcs1:Address>יגיע כפיים 17</fcs1:Address>
+
+               <fcs1:City>פתח תקווה</fcs1:City>
+
+               <fcs1:Company_ID>123456</fcs1:Company_ID>
+
+               <fcs1:Company_Name>וואן טכנולוגיות</fcs1:Company_Name>
+
+               <fcs1:Email>one.co.il</fcs1:Email>
+
+               <fcs1:Fax>03-9999999</fcs1:Fax>
+
+               <fcs1:Phone1>03-8888888</fcs1:Phone1>
+
+               <fcs1:Phone2>03-5555555</fcs1:Phone2>
+
+               <fcs1:ZIP_Code>12345</fcs1:ZIP_Code>
+            </fcs1:Amil_Details>
+            
+            <fcs1:Barcode>4545</fcs1:Barcode>
+            
+            <fcs1:Batch_Num>23232323</fcs1:Batch_Num>
+            
+            <fcs1:Container_Num>333</fcs1:Container_Num>
+            
+            <fcs1:Country_Name>ישראל</fcs1:Country_Name>
+            
+            <fcs1:Del_File_Num>3</fcs1:Del_File_Num>
+            
+            <fcs1:Delivery_To_Lab>22</fcs1:Delivery_To_Lab>
+            
+            <fcs1:Expiry_Date>
+               
+               <fcs1:Day>12</fcs1:Day>
+               
+               <fcs1:Month>may</fcs1:Month>
+               
+               <fcs1:Year>22</fcs1:Year>
+            </fcs1:Expiry_Date>
+            
+            <fcs1:Importer_Details>
+               
+               <fcs1:Address>יגיע כפיים 17</fcs1:Address>
+               
+               <fcs1:City>1פתח תקווה</fcs1:City>
+               
+               <fcs1:Company_ID>1123456</fcs1:Company_ID>
+               
+               <fcs1:Company_Name>1וואן טכנולוגיות</fcs1:Company_Name>
+               
+               <fcs1:Email>1one.co.il</fcs1:Email>
+               
+               <fcs1:Fax>103-9999999</fcs1:Fax>
+               
+               <fcs1:Phone1>103-8888888</fcs1:Phone1>
+               
+               <fcs1:Phone2>103-5555555</fcs1:Phone2>
+               
+               <fcs1:ZIP_Code>112345</fcs1:ZIP_Code>
+            </fcs1:Importer_Details>
+            
+            <fcs1:Importer_Store>23</fcs1:Importer_Store>
+            
+            <fcs1:Inspector_Title>666</fcs1:Inspector_Title>
+            
+            <fcs1:Is_Vet>T</fcs1:Is_Vet>
+            
+            <fcs1:Manufacture_Date>
+               
+               <fcs1:Day>05</fcs1:Day>
+               
+               <fcs1:Month>may</fcs1:Month>
+               
+               <fcs1:Year>21</fcs1:Year>
+            </fcs1:Manufacture_Date>
+            
+            <fcs1:Num_Of_Samples>1</fcs1:Num_Of_Samples>
+            
+            <fcs1:Num_Of_Samples_Vet>1</fcs1:Num_Of_Samples_Vet>
+            
+            <fcs1:Organization>TH03</fcs1:Organization>
+            
+            <fcs1:Packing_Type>3</fcs1:Packing_Type>
+            
+            <fcs1:Payer_ID>53005152 </fcs1:Payer_ID>
+            
+            <fcs1:Producer_Country>3</fcs1:Producer_Country>
+            
+            <fcs1:Producer_Name>gfrg</fcs1:Producer_Name>
+            
+            <fcs1:Product_Brand_Name>fdgg</fcs1:Product_Brand_Name>
+            
+            <fcs1:Product_Group_Code>555</fcs1:Product_Group_Code>
+            
+            <fcs1:Product_Group_Description>sdvg</fcs1:Product_Group_Description>
+            
+            <fcs1:Product_name_eng>gtttttttttrf</fcs1:Product_name_eng>
+            
+            <fcs1:Product_name_heb>כעגעדע</fcs1:Product_name_heb>
+            
+            <fcs1:Property_Plus>434</fcs1:Property_Plus>
+            
+            <fcs1:Remark>הערות</fcs1:Remark>
+            
+            <fcs1:Return_Code>44</fcs1:Return_Code>
+            
+            <fcs1:Return_Code_Desc>232</fcs1:Return_Code_Desc>
+            
+            <fcs1:Sample_Form_Num>1</fcs1:Sample_Form_Num>
+            
+            <fcs1:Sampling_Date>
+               
+               <fcs1:Day>01</fcs1:Day>
+               
+               <fcs1:Month>feb</fcs1:Month>
+               
+               <fcs1:Year>22</fcs1:Year>
+            </fcs1:Sampling_Date>
+            
+            <fcs1:Sampling_Inspector>3</fcs1:Sampling_Inspector>
+            
+            <fcs1:Sampling_Place>4</fcs1:Sampling_Place>
+            
+            <fcs1:Sampling_Reason>5</fcs1:Sampling_Reason>
+            
+            <fcs1:Sampling_Temp>6</fcs1:Sampling_Temp>
+            
+            <fcs1:Sampling_Time>7</fcs1:Sampling_Time>
+            
+            <fcs1:Test_Description>ייע</fcs1:Test_Description>
+            
+            <fcs1:Test_Sub_Code>13</fcs1:Test_Sub_Code>
+         </fcs:Lab_Sample_FormResult>
+      </fcs:Lab_Sample_FormResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
